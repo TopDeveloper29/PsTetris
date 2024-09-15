@@ -17,15 +17,14 @@ This project is a simple Tetris game implemented in PowerShell. It utilizes Wind
    Open your terminal and navigate to the directory where you downloaded the script:
 
    ```bash
-   cd "$env:USERPROFILE`\Downloads\"
+   cd "%USERPROFILE%\Downloads\"
    ```
-
 3. **Run the Script**
 
    Execute the script using PowerShell:
 
    ```bash
-   .\pstetris.ps1
+   pwsh -ExecutionPolicy Bypass -File .\pstetris.ps1
    ```
 
    Ensure you are using `pwsh` to invoke PowerShell 7 or later.
