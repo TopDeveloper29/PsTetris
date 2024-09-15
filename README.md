@@ -25,7 +25,7 @@ This project is a simple Tetris game implemented in PowerShell. It utilizes Wind
    Execute the script using PowerShell:
 
    ```bash
-   .\psetris.ps1
+   .\pstetris.ps1
    ```
 
    Ensure you are using `pwsh` to invoke PowerShell 7 or later.
